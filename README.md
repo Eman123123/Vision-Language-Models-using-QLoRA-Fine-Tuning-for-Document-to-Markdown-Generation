@@ -1,8 +1,8 @@
 # Vision-Language-Models-using-QLoRA-Fine-Tuning-for-Document-to-Markdown-Generation
-##📋 Overview
+# 📋 Overview
 This project implements QLoRA (Quantized Low-Rank Adaptation) fine-tuning of the Qwen2-VL-2B-Instruct vision-language model for converting document images to structured Markdown format. The model is trained on the Nougat dataset and demonstrates the effectiveness of parameter-efficient fine-tuning for document understanding tasks.
 
-🎯 Key Features
+# 🎯 Key Features
 QLoRA Fine-tuning: 4-bit quantization with LoRA adapters for efficient training
 
 Document-to-Markdown: Convert scanned documents, screenshots, and images to clean Markdown
@@ -17,7 +17,7 @@ Dual GPU Support: Optimized for multi-GPU training environments
 
 Early Stopping: Prevents overfitting with validation-based early stopping
 
-🏗️ Architecture
+# 🏗️ Architecture
 Model Details
 Base Model: Qwen2-VL-2B-Instruct
 
@@ -48,7 +48,7 @@ Precision: BF16 mixed precision
 
 Optimizer: paged_adamw_8bit
 
-📊 Dataset
+# 📊 Dataset
 The project uses the Nougat Training Dataset from Kaggle, containing document images with corresponding .mmd (Markdown) files.
 
 Dataset Statistics
